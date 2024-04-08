@@ -1,0 +1,72 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/public/style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <section class="main">
+    <div class="container">
+      <div class="input">
+        <div class="input-container">
+          <p style="width: max-content;">quantify</p>
+          <form onsubmit="prev()">
+            <input id="input" name="quantify" type="text" />
+          </form>
+
+        </div>
+      </div>
+      <div class="elements">
+        <div class="elements-container">
+          
+          <% if(v == 1){%>
+            <p>elemento</p>
+
+            <% }else if(v==2){ %>
+              <p>elemento</p>
+              <p>elemento</p>
+              <% }else if(v==3) {%>
+                <p>elemento</p>
+                <p>elemento</p>
+                <p>elemento</p>
+                <% }else if(v==4){ %>
+                  <p>elemento</p>
+                  <p>elemento</p>
+                  <p>elemento</p>
+                  <p>elemento</p>
+
+                  <% }else if(v==5){ %>
+                    <p>elemento</p>
+                    <p>elemento</p>
+                    <p>elemento</p>
+                    <p>elemento</p>
+                    <p>elemento</p>
+                    <% }else if(v==6){ %>
+                      <p>elemento</p>
+                      <p>elemento</p>
+                      <p>elemento</p>
+                      <p>elemento</p>
+                      <p>elemento</p>
+                      <p>elemento</p>
+                      <% }else if(v==7){ %>
+                        <p>elemento</p>
+                        <p>elemento</p>
+                        <p>elemento</p>
+                        <p>elemento</p>
+                        <p>elemento</p>
+                        <p>elemento</p>
+                        <p>elemento</p>
+                        <% } %>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="/public/js/dom.js"></script>
+</body>
+
+</html>

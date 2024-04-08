@@ -1,0 +1,38 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+section.main{
+  width: 100%;
+}
+
+.container{
+  height: 100%;
+  display:flex;
+}
+.input{
+  background: aliceblue;
+  width:30%;
+  min-height: 100%;
+  display:flex;
+  align-items:center;
+}
+
+.elements{
+  background: rgb(185, 222, 255);
+  width: 70%;
+  height:100%;
+}
+
+.elements-container{
+  margin-top:10px;
+}
+
+.elements-container > p{
+  padding:2%;
+  margin-bottom: 5px;
+  background-color: yellow;
+  border-radius: 8px;
+  border: 1px black solid;
+}
